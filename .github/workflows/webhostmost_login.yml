@@ -1,4 +1,4 @@
-name: WebHostMost Login  
+name: WebHostMost Login
 
 on:
   schedule:
@@ -25,3 +25,10 @@ jobs:
         env:
           USERNAME_AND_PASSWORD: ${{ secrets.USERNAME_AND_PASSWORD }}
         run: node scripts/login.js
+
+      - name: Send Telegram notification with screenshots
+        env:
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+          RESULTS_FILE: results.json
+        run: node scripts/send_telegram.js
