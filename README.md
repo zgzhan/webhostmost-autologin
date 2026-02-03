@@ -130,7 +130,9 @@ await page.waitForSelector('.account-dashboard');
 推送截图等信息
 添加变量
 TELEGRAM_BOT_TOKEN
+
 TELEGRAM_CHAT_ID
+
 -------------------------------------------------------------
 
 ## 📄 许可证
