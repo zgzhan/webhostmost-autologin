@@ -127,8 +127,11 @@ await page.waitForSelector('.account-dashboard');
 ```
 -----------------------------------------------------------
 以下为新增功能，TG通知，
+
 推送截图等信息
+
 添加变量
+
 TELEGRAM_BOT_TOKEN
 
 TELEGRAM_CHAT_ID
