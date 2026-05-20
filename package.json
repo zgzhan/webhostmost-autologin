@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "自动登录 WebHostMost 账户",
   "main": "scripts/login.js",
+  "type": "module",
   "scripts": {
     "start": "node scripts/login.js"
   },
