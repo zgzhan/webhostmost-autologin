@@ -1,4 +1,4 @@
-const puppeteer = require ('puppeteer/lib/cjs/puppeteer');
+const puppeteer = require ('puppeteer');
 const fs = require('fs');
 const path = require('path');
 
